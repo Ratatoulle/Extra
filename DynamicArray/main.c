@@ -20,6 +20,7 @@ int main()
 		add(array, rand() % 100);
 	printf("Initial array:\n");
 	print(array);
+
 	//just to test the at, find and count functions 
 	add(array, indexToFind);
 	add(array, numberToFind);
@@ -45,10 +46,6 @@ int main()
 	removeElem(array, indexToRemove);
 	printf("After removing element on %d index:\n", indexToRemove);
 	print(array);
-
-	//print(array);
-	//int unique = uniqe(array);
-	//printf_s("%d\n", unique);
 
 	sort(array);
 	printf("Sorted dynamic array:\n");
